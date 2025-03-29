@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/ListContactsRv"
+        android:id="@+id/ListContactsRV"
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:layout_marginStart="16dp"
@@ -38,7 +38,7 @@
         android:onClick="SortAlphabeticallyButton"
         android:text="Aakkosjärjestys"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ListContactsRv" />
+        app:layout_constraintTop_toBottomOf="@+id/ListContactsRV" />
 
     <Button
         android:id="@+id/SortByGroupButton"
@@ -50,5 +50,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toEndOf="@+id/SortAlphabeticallyButton"
-        app:layout_constraintTop_toBottomOf="@+id/ListContactsRv" />
+        app:layout_constraintTop_toBottomOf="@+id/ListContactsRV" />
 </androidx.constraintlayout.widget.ConstraintLayout>

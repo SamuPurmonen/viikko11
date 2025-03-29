@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         cs = ContactStorage.getInstance();
-        recyclerView = findViewById(R.id.ListContactsRv);
+        recyclerView = findViewById(R.id.ListContactsRV);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new ContactListAdapter(getApplicationContext(), cs.getContacts()));
 
