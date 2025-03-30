@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         Collections.sort(cs.getContacts(), new Comparator<Contact>() {
             @Override
             public int compare(Contact o1, Contact o2) {
-                return Integer.valueOf((o1.contactGroup).compareTo(o2.contactGroup));
+                return Integer.valueOf((o2.contactGroup).compareTo(o1.contactGroup));
             }
         });
 
